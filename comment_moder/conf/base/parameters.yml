@@ -1,0 +1,15 @@
+id_col_name: "id"
+comment_col_name: "comment"
+toxic_level_col_name: "level"
+urls_col_name: "urls"
+calls_to_join_col_name: "calls_to_join"
+wallet_address_col_name: "wallet_address"
+score_thresh: 0.7                            # score threshold for toxic level
+device_for_preparing: "cuda"                 # cpu or cuda
+interested_toxic_label:
+    - "identity_attack"                      # identity_attack - insult - sexual_explicit
+    - "insult"                               # toxicity - severe_toxicity - obscene - threat
+    - "threat"
+features_to_join:
+    - "t.me/joinchat"
+    - "youtube.com/channel"

@@ -1,0 +1,27 @@
+input_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/small_comment.csv
+
+#preprocessed_input_data:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/preprocessed_input_data.csv
+#
+#toxic_labeled_data:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/toxic_labeled_data.csv
+#
+#find_calls_to_join_data:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/find_calls_to_join_data.csv
+#
+#find_wallet_data:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/find_wallet_data.csv
+#
+#urls_extracted_data:
+#  type: pandas.CSVDataSet
+#  filepath: data/02_intermediate/urls_extracted_data.csv
+
+aggregated_data:
+  type: pandas.CSVDataSet
+  filepath: data/05_model_input/aggregated_data.csv
