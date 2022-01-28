@@ -381,7 +381,15 @@ widgetsnbextension==3.5.2
     # via ipywidgets
 zipp==3.7.0
     # via importlib-resources
-
-# The following packages are considered to be unsafe in a requirements file:
-# pip
-# setuptools
+torch==1.10.1
+torchaudio==0.10.1
+torchvision==0.11.2
+	# via detoxify model
+tqdm==4.62.3
+	# via project process-bar
+detoxify==0.4.0
+	# via determine text toxicity
+kedro-viz==4.3.1
+	# via build graph of project
+pandas==1.4.0
+	# via table data manipulation
