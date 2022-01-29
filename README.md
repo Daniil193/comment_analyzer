@@ -36,7 +36,7 @@ pip install -r src/requirements.txt
 ```
 kedro viz         
 ```
-For a question about analytics enter <N>
+For a question about analytics enter N
 - To generate a project documentation enter: 
 ```
 kedro build-docs    
