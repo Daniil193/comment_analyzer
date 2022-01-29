@@ -5,7 +5,7 @@
 This is Kedro project, which was generated using `Kedro 0.17.6`.
 
 Take a look at the [Kedro documentation](https://kedro.readthedocs.io) for full information about Kedro.
-###### Project testing on Ubuntu 20.04 and Python3.8
+###### Project was run on Ubuntu 20.04 and Python3.8
 ## How to setting
 
  - Create a new virtual environment:
