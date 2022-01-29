@@ -5,6 +5,7 @@ from .nodes import info_aggregation
 def create_pipeline(**kwargs):
     """
     Initial part of pipeline for search toxicity comments
+    
     :param kwargs:
     :return:
     """
