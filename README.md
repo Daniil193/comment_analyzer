@@ -1,4 +1,4 @@
-# comment modeartion
+# Сomment analyzer
 
 ## Overview
 
