@@ -5,14 +5,14 @@ from typing import Dict, List, Any
 
 def get_urls_from_text(text: str) -> str:
     """
-    Regular expression for extracting urls from comment, url not contain "tradingview.com/"
+    Regular expression for extracting urls from comment, url not contain "your_website.com/"
 
     :param text: User's comment
     :return: List urls from comment
     """
     regx = r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
     urls = re.findall(regx, text)
-    filtered_urls = [i for i in urls if "tradingview.com/" not in i]
+    filtered_urls = [i for i in urls if "your_website.com/" not in i]
     return ' ]|[ '.join(filtered_urls)
 
 
